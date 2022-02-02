@@ -14,7 +14,7 @@ Then
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
-There is an potential CORS problem.
+There is a potential CORS problem.
 If you using Chrome as your default browser, install an Extension called Moesif CORS to avoid the problem.
 Runs the app in the development mode.\
 
