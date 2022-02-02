@@ -6,8 +6,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 ### `npm install`
+
+Then
+
 ### `npm start`
 
+There is an potential CORS problem.
+If you using Chrome as your default browser, install an Extension called Moesif CORS to avoid the problem.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
