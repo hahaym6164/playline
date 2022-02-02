@@ -2,6 +2,105 @@
   text-align: center;
 }
 
+.main-container {
+  margin: auto;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  padding-top: 20px;
+  width: 700px;
+  background-color: white;
+}
+.container {
+  margin-top: 100px;
+}
+hr {
+  width: 300px;
+  border-bottom: none;
+  border-top: 0.1px solid #dfdfdf;
+}
+.players {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.player {
+  margin-top: 30px;
+  border-radius: 100%;
+  font-size: 12px;
+  width: 60px;
+}
+.playerPic {
+  border-radius: 100%;
+  border: 1px solid white;
+  background: #f0f0f0;
+  width: 70px;
+  margin-left: -5px;
+}
+.points {
+  border: 3px solid #f0f0f0;
+  height: 30px;
+  margin: auto;
+  width: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  font-weight: bold;
+}
+.btn {
+  padding: 15px 15px 15px 45px;
+  position: relative;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  border: 0.1px solid #dddddd;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: white;
+  vertical-align: middle;
+}
+.space {
+  margin: 7px;
+}
+.btn-img {
+  position: absolute;
+
+  left: 15px;
+  top: 8px;
+}
+footer {
+  padding: 40px;
+  flex-wrap: wrap;
+  color: #979a9b;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.footerTitle {
+  border-left: 1px solid #979a9b;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 11px;
+}
+.grey {
+  color: #707070;
+}
+@media screen and (max-width: 600px) {
+  .main-container {
+    width: unset;
+    padding: 20px;
+  }
+}
+.footerTitle:first-child {
+  border-left: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
